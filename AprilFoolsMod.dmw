@@ -1,0 +1,287 @@
+{
+    "watchList": [
+        {
+            "groupEntries": [
+                {
+                    "address": "807C8B14",
+                    "baseIndex": 0,
+                    "label": "x",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B18",
+                    "baseIndex": 0,
+                    "label": "y",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B1C",
+                    "baseIndex": 0,
+                    "label": "z",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B20",
+                    "baseIndex": 0,
+                    "label": "0rotation",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "0"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "807C8B28",
+                    "baseIndex": 0,
+                    "label": "x",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B2C",
+                    "baseIndex": 0,
+                    "label": "y",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B30",
+                    "baseIndex": 0,
+                    "label": "z",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B34",
+                    "baseIndex": 0,
+                    "label": "rot",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "1"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "807C8B3C",
+                    "baseIndex": 0,
+                    "label": "x",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B40",
+                    "baseIndex": 0,
+                    "label": "y",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B44",
+                    "baseIndex": 0,
+                    "label": "z",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B48",
+                    "baseIndex": 0,
+                    "label": "rot",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "2"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "807C8B50",
+                    "baseIndex": 0,
+                    "label": "x",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B54",
+                    "baseIndex": 0,
+                    "label": "y",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B58",
+                    "baseIndex": 0,
+                    "label": "z",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807C8B5C",
+                    "baseIndex": 0,
+                    "label": "rot",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "3"
+        },
+        {
+            "groupEntries": [
+            ],
+            "groupName": "4"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "807B5988",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807B599C",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807B59B0",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807B59C4",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807B59D8",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807B59EC",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807B5A00",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Bounces"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "807B7320",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807B7324",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807B7328",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "DK"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80896610",
+                    "baseIndex": 0,
+                    "label": "spread",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "808965F0",
+                    "baseIndex": 0,
+                    "label": "x",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "808965F4",
+                    "baseIndex": 0,
+                    "label": "y",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "808965F8",
+                    "baseIndex": 0,
+                    "label": "z",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "sun"
+        },
+        {
+            "groupEntries": [
+            ],
+            "groupName": "thwomps"
+        },
+        {
+            "address": "80890AE6",
+            "baseIndex": 0,
+            "label": "chargeup",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "80892725",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "80890AEA",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "80890AE8",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 1,
+            "unsigned": false
+        }
+    ]
+}
