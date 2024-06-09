@@ -1,6 +1,8 @@
 Must-Haves
 - Roster
 - Star players
+-   This function is the one that runs when a player is starred 800426dc
+-   Also relevant is this address which indicates if the game is in the process of making a character a superstar. 8033677e (2 bytes, one for each team). It runs the above function and more.
 - Defensive alignment
 - Batting order starting at who's currently up to bat
 - Handedness
