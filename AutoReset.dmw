@@ -1,0 +1,561 @@
+{
+    "watchList": [
+        {
+            "groupEntries": [
+                {
+                    "address": "800E877C",
+                    "baseIndex": 0,
+                    "label": "Rel number",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "800E877E",
+                    "baseIndex": 0,
+                    "label": "screen code curr",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "800E8782",
+                    "baseIndex": 0,
+                    "label": "screen code prev",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "800E8780",
+                    "baseIndex": 0,
+                    "label": "process code curr",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "800E8784",
+                    "baseIndex": 0,
+                    "label": "process code prev",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C670D",
+                    "baseIndex": 0,
+                    "label": "css process code",
+                    "length": 5,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C66B0",
+                    "baseIndex": 0,
+                    "label": "gameSetUpStep",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "menu info"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80353080",
+                    "baseIndex": 0,
+                    "label": "selected captain",
+                    "length": 8,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C676E",
+                    "baseIndex": 0,
+                    "label": "team 1 roster spots filled",
+                    "length": 9,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C6777",
+                    "baseIndex": 0,
+                    "label": "team 2 roster spots filled",
+                    "length": 9,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C6726",
+                    "baseIndex": 0,
+                    "label": "team 1 char ID on roster",
+                    "length": 9,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C672F",
+                    "baseIndex": 0,
+                    "label": "team 2 char ID on roster",
+                    "length": 9,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C6738",
+                    "baseIndex": 0,
+                    "label": "team 1 position swap mapping",
+                    "length": 9,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C6741",
+                    "baseIndex": 0,
+                    "label": "team 2 position swap mapping",
+                    "length": 9,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C674A",
+                    "baseIndex": 0,
+                    "label": "team 1 chem with cap",
+                    "length": 9,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C6753",
+                    "baseIndex": 0,
+                    "label": "team 2 chem with cap",
+                    "length": 9,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803530AF",
+                    "baseIndex": 0,
+                    "label": "chem stars",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803530AD",
+                    "baseIndex": 0,
+                    "label": "team logo code",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Selected characters"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80750C00",
+                    "baseIndex": 0,
+                    "label": "cap_cc cursor positions",
+                    "length": 8,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80750C50",
+                    "baseIndex": 0,
+                    "label": "css cursor roster spot/ok/random (team 1 and 2)",
+                    "length": 8,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80751898",
+                    "baseIndex": 0,
+                    "label": "number of cursor movements (mod 10) on cap select",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518B4",
+                    "baseIndex": 0,
+                    "label": "move cursor animation frame counter",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80750C10",
+                    "baseIndex": 0,
+                    "label": "char ID of bottom cursor",
+                    "length": 8,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C6048",
+                    "baseIndex": 0,
+                    "label": "last valid char ID on bottom screen",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "803A4BFC",
+                    "baseIndex": 0,
+                    "label": "last valid char ID cursor was on (top or bottom)",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C6724",
+                    "baseIndex": 0,
+                    "label": "cursor pos",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "cursor"
+        },
+        {
+            "address": "803C66B0",
+            "baseIndex": 0,
+            "label": "pre game step number? (eg 1 cap, 2 css, 3 lineup)",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "80750C7F",
+            "baseIndex": 0,
+            "label": "ok button ind (if manually set to 1, is not visible but can be used)",
+            "length": 2,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80316D78",
+            "baseIndex": 1,
+            "label": "some pointer",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "807518C6",
+            "baseIndex": 0,
+            "label": "team ready ind",
+            "length": 2,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "800E870C",
+            "baseIndex": 0,
+            "label": "player 2 ind",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "803530EC",
+            "baseIndex": 1,
+            "label": "chemParameter",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "800EFBA4",
+            "baseIndex": 1,
+            "label": "No label",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "80353098",
+            "baseIndex": 0,
+            "label": "port of players",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80751898",
+                    "baseIndex": 0,
+                    "label": "nCursorMovements",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8075189A",
+                    "baseIndex": 0,
+                    "label": "0x2-0xb",
+                    "length": 10,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518A4",
+                    "baseIndex": 0,
+                    "label": "0xc",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518A6",
+                    "baseIndex": 0,
+                    "label": "captain selected ind",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518A8",
+                    "baseIndex": 0,
+                    "label": "playing captain sound",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518AA",
+                    "baseIndex": 0,
+                    "label": "0x12",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518AC",
+                    "baseIndex": 0,
+                    "label": "0x14",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518AE",
+                    "baseIndex": 0,
+                    "label": "0x16-0x17",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518B0",
+                    "baseIndex": 0,
+                    "label": "captain model shown",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518B1",
+                    "baseIndex": 0,
+                    "label": "loading new captain model",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518B2",
+                    "baseIndex": 0,
+                    "label": "0x1a",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518B3",
+                    "baseIndex": 0,
+                    "label": "frames since cursor moved",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "807518B5",
+                    "baseIndex": 0,
+                    "label": "0x1d-0x1f",
+                    "length": 3,
+                    "typeIndex": 6,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "captain select struct"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803C5F34",
+                    "baseIndex": 0,
+                    "label": "game setting screen process code",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803C5F3A",
+                            "baseIndex": 0,
+                            "label": "control options ind",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803C5F69",
+                            "baseIndex": 0,
+                            "label": "control options row",
+                            "length": 2,
+                            "typeIndex": 6,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803C5F6D",
+                            "baseIndex": 0,
+                            "label": "control options prev row",
+                            "length": 2,
+                            "typeIndex": 6,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803C5F3F",
+                            "baseIndex": 0,
+                            "label": "selected options",
+                            "length": 5,
+                            "typeIndex": 6,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803C5F49",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "length": 8,
+                            "typeIndex": 6,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "game options"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803C5EDA",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803C5EDB",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803C5EDC",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80750C34",
+                            "baseIndex": 0,
+                            "label": "stadium cursor pos",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "stadium settings"
+                }
+            ],
+            "groupName": "game settings"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "808928A4",
+                            "baseIndex": 0,
+                            "label": "away",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "808928A6",
+                            "baseIndex": 0,
+                            "label": "away by inning",
+                            "length": 18,
+                            "typeIndex": 6,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "808928CA",
+                            "baseIndex": 0,
+                            "label": "home",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "808928CC",
+                            "baseIndex": 0,
+                            "label": "home by inning",
+                            "length": 18,
+                            "typeIndex": 6,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "scores"
+                },
+                {
+                    "address": "808928A0",
+                    "baseIndex": 0,
+                    "label": "inning",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8089294D",
+                    "baseIndex": 0,
+                    "label": "bottom of inning",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8089294A",
+                    "baseIndex": 0,
+                    "label": "innings selected",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8089294B",
+                    "baseIndex": 0,
+                    "label": "max inning",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80892968",
+                    "baseIndex": 0,
+                    "label": "strikes",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8089296C",
+                    "baseIndex": 0,
+                    "label": "balls",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80892970",
+                    "baseIndex": 0,
+                    "label": "outs",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "in game"
+        }
+    ]
+}
