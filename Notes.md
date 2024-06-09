@@ -4,6 +4,7 @@ Must-Haves
 - Defensive alignment
 - Batting order starting at who's currently up to bat
 - Handedness
+-   Found in inMemRoster struct 80353be0
 - Team stars
 -   80892ad6, 80892ad7 (bytes)
 -   Probably easiest to deal with in-game while changing scores/innings/etc
