@@ -13,6 +13,8 @@ Must-Haves
 -   803C6738 is the struct for the position of each character on the CSS
 -   If we just load the characters in their positional order (so P first, then C, etc), then this struct can be left alone.
 - Batting order starting at who's currently up to bat
+-   80065dec this is the function that sets the initial batting line up that we'll likely have to modify
+-   The tough part will be figuring out how to set the batting order and also set the InMemRoster struct, since this function performs that action.
 - Handedness
 -   Found in inMemRoster struct 80353be0
 - Team stars
