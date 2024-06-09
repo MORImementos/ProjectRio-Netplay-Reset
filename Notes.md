@@ -1,9 +1,17 @@
 Must-Haves
 - Roster
+-   Current best known method:
+-     When going from captain select screen to css, set the following structs
+-     803C676E - indicators for which roster spots have been filled - set to all 1s
+-     803C6726 - character IDs - set based on HUD file
+-     803C674A - chem with captain. Optional since we will overwrite set the stars in game
+-     80750C7F - OK button available to press indicators. Set to 1 for each team. Then press up from "random" to "ok", and select ok. The game will move on to the lineup screen with the right roster.
 - Star players
 -   This function is the one that runs when a player is starred 800426dc
 -   Also relevant is this address which indicates if the game is in the process of making a character a superstar. 8033677e (2 bytes, one for each team). It runs the above function and more.
 - Defensive alignment
+-   803C6738 is the struct for the position of each character on the CSS
+-   If we just load the characters in their positional order (so P first, then C, etc), then this struct can be left alone.
 - Batting order starting at who's currently up to bat
 - Handedness
 -   Found in inMemRoster struct 80353be0
