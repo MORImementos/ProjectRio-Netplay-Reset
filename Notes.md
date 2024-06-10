@@ -24,6 +24,7 @@ Must-Haves
  Inning
 -   Inning number: 808928A0 (int), half inning: 8089294D (byte)
 -   Seems like it can be simply changed anytime after the game starts
+-   Once the game starts, the team batting is according to the pre-game settings, but if we turn the inning to the bottom half, the home team now becomes the away team. So we will need to keep this flip in mind when setting the rosters.
  Balls/strikes/outs
 -   Strikes: 80892968, Balls: 8089296C, Outs: 80892970 (ints)
 -   Stored outs (80892974) might also need to be edited to ensure no weird behavior.
@@ -31,6 +32,14 @@ Must-Haves
  Scores
 -   Away: 808928A4, Home: 808928CA (shorts)
 -   Seems like it can be simply changed anytime after the game starts
+Pre-game settings
+-  The stadium isn't in the hud file. Either it can be left to the players to edit, or we can ask for it to be added to the hud file.
+-    I have an automatic stadium picker made somewhere
+-  The current team batting needs to be set to who was actually batting, and not based on home and away. Then, the bottom of the inning address will handle home/away
+- Innings should be set to whatever the selection was for the real game. This isn't currently available in the HUD file, so we either ask for it to be added, or infer it from the game mode (the game mode isn't in the HUD file either)
+- Star skills will probably need to be inferred from the game mode.
+- Mercy can just be set to on as it's pretty standard.
+- May need to consider drop spots from the game mode
 
 Nice-to-Haves
 - Prior inning scores
