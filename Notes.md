@@ -15,6 +15,7 @@ Must-Haves
 -   Our best solution is to nop calls to 80065dec (nops occuring at 80047dec and 80047df4  seem like what we want) so the batting order can just be how we set up the charID array.
   Defensive alignment
 -   803C6738 is the struct for the position of each character on the CSS
+-   The HUD file doesn't have the latest positions of each player, just the number of batters and outs at each position. We can make an educated guess, but it's probably better if we request the latest alignment to be added to the HUD file.
    Handedness
 -   Found in inMemRoster struct 80353be0
   Team stars
