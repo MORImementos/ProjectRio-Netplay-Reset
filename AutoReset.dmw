@@ -553,9 +553,92 @@
                     "label": "outs",
                     "typeIndex": 2,
                     "unsigned": false
+                },
+                {
+                    "address": "80892AD6",
+                    "baseIndex": 0,
+                    "label": "team stars",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
                 }
             ],
             "groupName": "in game"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80336726",
+                    "baseIndex": 0,
+                    "label": "P1 Batting Cursor",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80336727",
+                    "baseIndex": 0,
+                    "label": "P2 Batting Cursor",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80336741",
+                    "baseIndex": 0,
+                    "label": "Z menu showing",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80336782",
+                    "baseIndex": 0,
+                    "label": "Unkown, X related",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8033672E",
+                    "baseIndex": 0,
+                    "label": "Unknown",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8033671C",
+                    "baseIndex": 0,
+                    "label": "Char selected to be swapped ind",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8033671E",
+                    "baseIndex": 0,
+                    "label": "Char ID selected to be swapped",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80336732",
+                    "baseIndex": 0,
+                    "label": "On positions screen",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80336734",
+                    "baseIndex": 0,
+                    "label": "On batting screen (only if has been to positions screen before)",
+                    "length": 2,
+                    "typeIndex": 6,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Batting Lineup"
         }
     ]
 }
