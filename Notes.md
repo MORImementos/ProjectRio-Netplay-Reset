@@ -6,6 +6,7 @@ Must-Haves
 -     803C6726 - character IDs - set based on HUD file
 -     803C674A - chem with captain. Optional since we will overwrite set the stars in game
 -     80750C7F - OK button available to press indicators. Set to 1 for each team. Then press up from "random" to "ok", and select ok. The game will move on to the lineup screen with the right roster.
+-     80750c48 - Cursor locations (ints) need to set to 9 to be on the ok button.
   Star players
 -   This function is the one that runs when a player is starred 800426dc
 -   Also relevant is this address which indicates if the game is in the process of making a character a superstar. 8033677e (2 bytes, one for each team). It runs the above function and more.
