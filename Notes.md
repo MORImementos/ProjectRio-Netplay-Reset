@@ -33,10 +33,10 @@ Must-Haves
 -   Away: 808928A4, Home: 808928CA (shorts)
 -   Seems like it can be simply changed anytime after the game starts
 Pre-game settings
--  The stadium isn't in the hud file. Either it can be left to the players to edit, or we can ask for it to be added to the hud file.
+-  The stadium isn't in the hud file, but MattGree has a PR with this ready to be added.
 -    I have an automatic stadium picker made somewhere
 -  The current team batting needs to be set to who was actually batting, and not based on home and away. Then, the bottom of the inning address will handle home/away
-- Innings should be set to whatever the selection was for the real game. This isn't currently available in the HUD file, so we either ask for it to be added, or infer it from the game mode (the game mode isn't in the HUD file either)
+- Innings should be set to whatever the selection was for the real game. This isn't currently available in the HUD file, but is in MattGree's pending pull request
 - Star skills will probably need to be inferred from the game mode.
 - Mercy can just be set to on as it's pretty standard.
 - May need to consider drop spots from the game mode
@@ -44,3 +44,8 @@ Pre-game settings
 Nice-to-Haves
 - Prior inning scores
 - Stats updated
+- 
+
+
+Injection Points
+- Playball: near 8069e42c. Can be when to set the game innings/scores/etc.
