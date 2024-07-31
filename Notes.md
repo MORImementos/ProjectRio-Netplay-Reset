@@ -18,7 +18,7 @@ Batting order starting at who's currently up to bat
 -   Then, 80065dec sets the initial order based on an algorithm that considers character class, and overwrites InMemRoster with the stats of the new batting order.
 -   Original idea was to nop calls to 80065dec (nops occuring at 80047dec and 80047df4  seem like what we want) so the batting order can just be how we set up the charID array. However, this caused errors when entering the game since this function probably sets some critical values.
 -   A workaround is to set the static batting lineup priority positions structure at 80109054 to manipulate how the game sets the lineup. A weird quirk to remember is that the latest captain-type character on the roster gets put into the lineup first.
--   
+-   The workaround is to set the priority positions based on the desired lineup. Eg if we want DK leading off the rest game, we need to assign the power first priority position to be 0. Then if Daisy is next, we make the first balanced priority position to be 1, etc (keeping in mind that the last captain type character needs to be set in the lineup first)
 Defensive alignment
 -   803C6738 is the struct for the position of each character on the CSS
 -   The HUD file doesn't have the latest positions of each player, just the number of batters and outs at each position. We can make an educated guess, but it's probably better if we request the latest alignment to be added to the HUD file.
