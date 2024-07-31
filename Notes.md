@@ -12,6 +12,7 @@ Roster
 Star players
 -   This function is the one that runs when a player is starred 800426dc
 -   Also relevant is this address which indicates if the game is in the process of making a character a superstar. 8033677e (2 bytes, one for each team). It runs the above function and more.
+
 Batting order starting at who's currently up to bat
 -   The batting order is initially set (including copying the character stats to InMemRoster) based on the CharID order in this array: 803C6726
 -   Then, 80065dec sets the initial order based on an algorithm that considers character class, and overwrites InMemRoster with the stats of the new batting order.
