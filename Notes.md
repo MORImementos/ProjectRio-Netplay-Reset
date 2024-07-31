@@ -17,8 +17,10 @@ Must-Haves
   Defensive alignment
 -   803C6738 is the struct for the position of each character on the CSS
 -   The HUD file doesn't have the latest positions of each player, just the number of batters and outs at each position. We can make an educated guess, but it's probably better if we request the latest alignment to be added to the HUD file.
-   Handedness
+
+    Handedness
 -   Found in inMemRoster struct 80353be0
+-   Fielding at 80353c06 and batting at 80353c07 for roster spot [0][0]
 -   Each in mem roster struct has a size of 0xA0, so use this as the gap to skip between each character.
 -   Can just set at boot and it will maintain it until the batting screen.
   Team stars
