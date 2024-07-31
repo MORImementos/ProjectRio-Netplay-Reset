@@ -19,6 +19,7 @@ Must-Haves
 -   The HUD file doesn't have the latest positions of each player, just the number of batters and outs at each position. We can make an educated guess, but it's probably better if we request the latest alignment to be added to the HUD file.
    Handedness
 -   Found in inMemRoster struct 80353be0
+-   Each in mem roster struct has a size of 0xA0, so use this as the gap to skip between each character.
 -   Can just set at boot and it will maintain it until the batting screen.
   Team stars
 -   In-game addresses: 80892ad6, 80892ad7 (bytes)
