@@ -10,20 +10,21 @@ Must-Haves
   Star players
 -   This function is the one that runs when a player is starred 800426dc
 -   Also relevant is this address which indicates if the game is in the process of making a character a superstar. 8033677e (2 bytes, one for each team). It runs the above function and more.
-  Batting order starting at who's currently up to bat
+Batting order starting at who's currently up to bat
 -   The batting order is initially set (including copying the character stats to InMemRoster) based on the CharID order in this array: 803C6726
 -   Then, 80065dec sets the initial order based on an algorithm that considers character class, and overwrites InMemRoster with the stats of the new batting order.
--   Our best solution is to nop calls to 80065dec (nops occuring at 80047dec and 80047df4  seem like what we want) so the batting order can just be how we set up the charID array.
-  Defensive alignment
+-   Original idea was to nop calls to 80065dec (nops occuring at 80047dec and 80047df4  seem like what we want) so the batting order can just be how we set up the charID array. However, this caused errors when entering the game since this function probably sets some critical values.
+-   A workaround is to set the static batting lineup priority positions structure at 80109054 to manipulate how the game sets the lineup. A weird quirk to remember is that the latest captain-type character on the roster gets put into the lineup first.
+Defensive alignment
 -   803C6738 is the struct for the position of each character on the CSS
 -   The HUD file doesn't have the latest positions of each player, just the number of batters and outs at each position. We can make an educated guess, but it's probably better if we request the latest alignment to be added to the HUD file.
 
-    Handedness
+Handedness
 -   Found in inMemRoster struct 80353be0
 -   Fielding at 80353c06 and batting at 80353c07 for roster spot [0][0]
 -   Each in mem roster struct has a size of 0xA0, so use this as the gap to skip between each character.
 -   Can just set at boot and it will maintain it until the batting screen.
-  Team stars
+Team stars
 -   In-game addresses: 80892ad6, 80892ad7 (bytes)
 -   Probably easiest to deal with in-game while changing scores/innings/etc
  Inning
